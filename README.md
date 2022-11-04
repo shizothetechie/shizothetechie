@@ -1,7 +1,7 @@
 
 <html> 
 <body>
-<h1> Hey 👋 I'm Shizo The Techie </h1>
+<h1> Hey 👋 <br> I'm Shizo The Techie </h1>
 <center>
 <img src='https://raw.githubusercontent.com/shizothetechie/database/main/PersonalUse/shizo-mirror-selfie%40mall.jpg'>
 </center>
