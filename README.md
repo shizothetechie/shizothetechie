@@ -3,17 +3,17 @@
 <body>
 <h1> Hey 👋 I'm Shizo The Techie </h1>
 <center>
-<img src='https://raw.githubusercontent.com/shizothetechie/database/main/PersonalUse/shizo-mirror-selfie%40mall.jpg' width='60%'>
+<img src='https://raw.githubusercontent.com/shizothetechie/database/main/PersonalUse/shizo-mirror-selfie%40mall.jpg'>
 </center>
 
 <p> <b>Connect With me:</b></p>
 <p>
 <a href="https://wa.me/919172389527"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"> </a>
-<br>
+
 <a href="https://Instagram.com/shizo_the_techie"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram2.png" width="11%"> </a>
-<br>
+
 <a href="https://www.facebook.com/profile.php?id=100077342065243"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="12%"> </a>
-<br>
+
 <a href="https://dev.to/shizo_the_techie"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="12%"> </a>
 </p>
 
