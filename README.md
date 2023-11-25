@@ -3,7 +3,7 @@
 <body>
 <h1> Hey 👋 <br> I'm Shizo The Techie </h1>
 <center>
-<img src='https://raw.githubusercontent.com/shizothetechie/database/main/PersonalUse/shizo-mirror-selfie%40mall.jpg'>
+<img src='https://raw.githubusercontent.com/shizothetechie/database/main/PersonalUse/ShizoDevs.jpg' height=400>
 </center>
 
 <p> <b>Connect With me:</b></p>
