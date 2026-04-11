@@ -1,40 +1,40 @@
+# Yugesh Singh 
+### aka **Shizo The Techie**
 
-<html> 
-<body>
-<h1> Hey 👋 <br> I'm Shizo The Techie </h1>
+CS student passionate about backend development, exploring the worlds of **AI & ML**.
 
-<p> <b>Connect With me:</b></p>
-<p>
-<a href="https://wa.me/919172389527"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"> </a><a href="https://Instagram.com/shizo_the_techie"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram2.png" width="11%"> </a><a href="https://www.facebook.com/profile.php?id=100077342065243"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="12%"> </a><a href="https://dev.to/shizo_the_techie"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="12%"> </a><a href="https://twitter.com/shizothe_techie"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="10%"> </a>
-</p>
- 
- **Languages & Tools**
-  <div align="center">
-<img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Android-studio-developer.png" width="15%">
-<img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/html.png" width="15%">
-<img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/css.png" width="12%">
-<img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/javascript.png" width="15%">
-<img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/java.png" width="17%">
-<img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/nodejs.png" width="15%">
-<img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/heroku.png" width="15%">
-<img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/terminal.png" width="15%">
-</div>
-  
-  
-  
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shizothetechie" alt="Shizo Op" /></a> </p>
+| 🧠 Learned | 📖 Currently Learning |
+|---|---|
+| HTML, CSS, JavaScript, Node.js, Express, MongoDB | TypeScript, Python, AI & ML |
 
-<p align="center">
-  <b>GitHub Stats </b>
-  <img src="https://github-readme-stats.vercel.app/api?username=shizothetechie&hide=stars&show_icons=true&theme=dracula&line_width=33">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shizothetechie&count_private=true&theme=dracula">
+![Profile Views](https://komarev.com/ghpvc/?username=shizothetechie&style=flat&color=6e40c9&label=profile+views)
 
-</p>
+---
 
-  
-<p align="center">
-    Show ❤️ by starring and forking repositories you find good!
-  </p>
+### Connect
 
-</body>
-</html>
+<a href="mailto:itz.shizothetechie@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40" title="Email" /></a>&nbsp;
+<a href="https://wa.me/919172389527"><img src="https://img.shields.io/badge/-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white&labelColor=25D366" height="40" title="WhatsApp" /></a>&nbsp;
+<a href="https://instagram.com/shizo_the_techie"><img src="https://skillicons.dev/icons?i=instagram" height="40" title="Instagram" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/yugesh-singh-0a824a3b5"><img src="https://skillicons.dev/icons?i=linkedin" height="40" title="LinkedIn" /></a>
+
+---
+
+### Stack
+
+<sub>**Frontend**</sub><br/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts" height="48" /><br/><br/>
+<sub>**Backend & Database**</sub><br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" height="48" /><br/><br/>
+<sub>**Tools & DevOps**</sub><br/>
+<img src="https://skillicons.dev/icons?i=git,github,docker,vercel,heroku,vscode" height="48" />
+
+---
+
+### 🎵 Spotify
+
+[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/track/7MXVkk9YMctZqd1Srtv4MB?si=rdSukpjPQLqQZTewp1U-wA)
+
+---
+
+<p align="center">⭐ Star repos you find useful!</p>
