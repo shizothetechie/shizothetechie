@@ -1,0 +1,100 @@
+name: Keep GitHub Green 🌱
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+    - cron: "0 14 * * *"
+    - cron: "0 23 * * *"
+
+  workflow_dispatch:
+    inputs:
+      intensity:
+        description: "Commit intensity (light / medium / heavy)"
+        required: false
+        default: "auto"
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.SHIZO_GITHUB_TOKEN }}
+
+      - name: Decide commit count
+        id: decide
+        run: |
+          INTENSITY="${{ github.event.inputs.intensity }}"
+
+          if [ "$INTENSITY" = "light" ]; then
+            MIN=1; MAX=2
+          elif [ "$INTENSITY" = "medium" ]; then
+            MIN=3; MAX=6
+          elif [ "$INTENSITY" = "heavy" ]; then
+            MIN=7; MAX=12
+          else
+            ROLL=$(( RANDOM % 10 ))
+            if [ $ROLL -lt 6 ]; then
+              MIN=1; MAX=2
+            elif [ $ROLL -lt 9 ]; then
+              MIN=3; MAX=6
+            else
+              MIN=7; MAX=12
+            fi
+          fi
+
+          COUNT=$(( RANDOM % (MAX - MIN + 1) + MIN ))
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Will make $COUNT commit(s)"
+
+      - name: Configure git
+        run: |
+          git config user.name  "shizothetechie"
+          git config user.email "yugeshsingh27@gmail.com"
+
+      - name: Make commits
+        run: |
+          COUNT=${{ steps.decide.outputs.count }}
+
+          MESSAGES=(
+            "chore: update activity log"
+            "docs: minor readme tweak"
+            "chore: bump timestamp"
+            "refactor: clean up whitespace"
+            "docs: fix typo"
+            "chore: routine maintenance"
+            "style: formatting pass"
+            "chore: sync metadata"
+            "docs: update notes"
+            "fix: correct minor inconsistency"
+            "chore: tidy up"
+            "docs: improve clarity"
+            "perf: small optimization note"
+            "chore: housekeeping"
+            "docs: add entry to changelog"
+          )
+
+          TOTAL=${#MESSAGES[@]}
+
+          for i in $(seq 1 $COUNT); do
+            MSG_IDX=$(( RANDOM % TOTAL ))
+            MSG="${MESSAGES[$MSG_IDX]}"
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+
+            echo "[$TIMESTAMP] run #$i of $COUNT — $MSG" >> .github/activity.log
+
+            if [ $(( i % 3 )) -eq 0 ]; then
+              echo "Last sync: $TIMESTAMP" > .github/last-sync.txt
+              git add .github/last-sync.txt
+            fi
+
+            git add .github/activity.log
+            git commit -m "$MSG"
+            sleep 2
+          done
+
+      - name: Push commits
+        run: git push origin HEAD
