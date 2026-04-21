@@ -23,9 +23,7 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shizothetechie&label=Profile%20views&color=6e40c9&style=flat" alt="Profile views" />
-</p>
+<p align="center"><img src="https://count.getloli.com/@shizothetechie?name=Shizo&theme=rule34&padding=6&offset=0&align=center&scale=1&pixelated=1&darkmode=0"/></p>
 
 <br>
 
