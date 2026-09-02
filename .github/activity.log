@@ -1331,3 +1331,4 @@
 [2026-09-02 00:45:40 UTC] run #1 of 2 — chore: tidy up
 [2026-09-02 00:45:42 UTC] run #2 of 2 — docs: improve clarity
 [2026-09-02 10:11:30 UTC] run #1 of 1 — docs: add entry to changelog
+[2026-09-02 17:49:22 UTC] run #1 of 1 — perf: small optimization note
